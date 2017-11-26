@@ -1,0 +1,58 @@
+@relation whatever
+@attribute pattern1 integer
+@attribute pattern2 integer
+@attribute pattern3 integer
+@attribute pattern4 integer
+@attribute pattern5 integer
+@attribute Label {yes,no}
+@data
+0,1,0,0,0,no
+0,1,1,0,1,yes
+1,0,1,1,0,yes
+1,1,1,0,1,yes
+1,1,0,1,1,yes
+1,0,0,1,0,no
+1,0,1,0,0,no
+0,1,0,1,1,no
+1,1,0,0,0,yes
+1,1,1,1,0,yes
+0,1,0,1,1,no
+1,0,0,0,0,no
+0,1,0,1,?,no
+0,1,0,1,0,no
+0,0,1,0,0,no
+0,0,0,0,0,no
+0,1,1,0,0,yes
+0,1,1,0,1,yes
+1,0,0,0,0,no
+0,1,1,1,0,yes
+1,0,1,1,0,yes
+0,1,1,1,1,yes
+1,0,0,1,1,no
+1,1,1,0,1,yes
+0,1,1,0,1,yes
+1,1,0,1,1,yes
+1,0,1,1,1,yes
+1,1,0,1,1,yes
+1,0,1,0,0,no
+1,0,1,0,0,no
+0,1,0,1,0,no
+0,0,0,0,0,no
+0,0,0,0,1,no
+1,1,1,0,0,yes
+0,0,1,1,1,yes
+0,1,1,0,0,yes
+0,1,1,0,0,yes
+1,0,1,1,0,yes
+0,1,0,1,0,no
+1,1,1,1,1,yes
+0,1,0,1,1,no
+0,1,0,0,1,no
+0,1,0,0,0,no
+1,0,1,1,0,yes
+1,0,1,1,1,yes
+0,0,0,1,1,no
+1,0,1,1,0,yes
+0,1,0,1,1,no
+0,1,1,0,1,yes
+0,1,1,0,0,yes
